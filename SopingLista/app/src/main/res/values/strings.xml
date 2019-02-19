@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Šoping Lista</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_item">Dodaj namirnicu</string>
+    <string name="enter_item">Unesi stavku</string>
+    <string name="hint_item">Namirnica</string>
+    <string name="quantityHint">Količina</string>
+    <string name="save_title">Sačuvaj</string>
+    <string name="title_activity_list">Šoping Lista</string>
+    <string name="sure_text">Potvrdi brisanje</string>
+    <string name="no">No</string>
+    <string name="nope">Ne</string>
+    <string name="yes">Da</string>
+    <string name="cenaNam">Cena:</string>
+    <string name="pocetna_vrednost_cene">0</string>
+</resources>

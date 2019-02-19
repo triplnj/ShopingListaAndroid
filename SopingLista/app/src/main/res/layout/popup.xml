@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+
+        android:padding="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/naslov"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:text="Unesi stavku"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/groceryItem"
+            android:layout_below="@+id/naslov"
+            android:layout_width="match_parent"
+            android:hint="Namirnica:"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/groceryQty"
+            android:layout_below="@+id/groceryItem"
+            android:layout_marginTop="15dp"
+            android:hint="Količina:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/cenaNamir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/groceryQty"
+            android:layout_marginTop="18dp"
+            android:hint="@string/cenaNam"
+            android:inputType="text|number"
+            tools:text="0" />
+        <Button
+            android:id="@+id/saveButton"
+            android:text="Sačuvaj"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:background="@color/colorAccent"
+            android:layout_below="@id/cenaNamir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
